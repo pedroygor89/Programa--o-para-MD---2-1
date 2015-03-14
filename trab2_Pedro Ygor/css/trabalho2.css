@@ -64,8 +64,8 @@ vertical-align: center;
 	text-align: center;
 	width: 460px;
 	float: left;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 
 
 }
@@ -91,7 +91,7 @@ vertical-align: center;
 #imagem1
 {
 width: 150px;
-	transform: rotate(-5deg);
+
 	margin-left: 20px;
 	margin-bottom: 60px;
 	border: 10px solid white;
@@ -102,7 +102,7 @@ width: 150px;
 {
 width: 150px;
 	margin-left: 20px;
-	transform: rotate(5deg);
+	
 	margin-bottom: 60px;
 	border: 10px solid white;
 	
@@ -112,7 +112,7 @@ width: 150px;
 {
 width: 150px;
 	margin-left: 20px;
-		transform: rotate(-5deg);
+	
 	margin-bottom: 60px;
 	border: 10px solid white;
 
@@ -121,7 +121,7 @@ width: 150px;
 {
 width: 150px;
 	margin-left: 20px;
-	transform: rotate(5deg);
+
 	margin-bottom: 60px;
 	border: 10px solid white;
 	
@@ -131,7 +131,7 @@ width: 150px;
 {
 width: 150px;
 	margin-left: 20px;
-	transform: rotate(-5deg);
+	
 	margin-bottom: 60px;
 	border: 10px solid white;
 	
@@ -141,7 +141,6 @@ width: 150px;
 {
 width: 150px;
 	margin-left: 20px;
-	transform: rotate(5deg);
 	margin-bottom: 60px;
 	border: 10px solid white;
 	
