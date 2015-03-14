@@ -13,22 +13,89 @@
         <!-- COLOQUE AS REGRAS DE CSS DENTRO DESSE ARQUIVO ABAIXO !-->
         <link rel="stylesheet" href="css/trabalho2.css">
 
-<!--SLIDE SHOW-->
-        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/><!--FECHA SLIDE SHOW-->
-				
 
+
+        
+  <style>
+    /* Prevent the slideshow from flashing on load */
+    #slides {
+      display: none
+
+
+  }
+
+    /* Center the slideshow */
+    .container {
+      margin: 0 auto
+    }
+
+    /* Show active item in the pagination */
+    .slidesjs-pagination .active {
+      color:red;
+    }
+
+    /* Media quires for a responsive layout */
+
+   
+
+    /* For larger displays */
+    
+      .container {
+        width: 920px
+      }
+    }
+  </style>
     </head>
+    
     <body>
 
 
 
-<header> <font color="white">Introducao a Programacao - Trabalho 2</font> </header>
+<header> <font color="white">Slide e GitHub</font> </header>
 
  <div id="geral">        
            
-            <div id="imgemgrande"> <!--img src="img/main-image.jpg"--></img> </div>
+            <div id="imgemgrande"> 
+<!--img src="img/main-image.jpg"></img-->
+
+
+
+<div class="container">
+    <div id="slides">
+      <img src="img/main-image.jpg" >
+
+        <img src="img/main-image2.PNG" >
+      <img src="img/main-image3.png">
+      <img src="img/main-image4.jpg">
+    
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 430
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
+
+</div>
+
+
+
+
 
             <div class="colunas">
 
@@ -70,17 +137,7 @@
 </div>
 
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.your-class').slick({
-        setting-name: setting-value
-      });
-    });
-  </script>
 
 
 </div>
