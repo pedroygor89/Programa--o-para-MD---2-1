@@ -1,0 +1,156 @@
+/* Coloque as suas regras de css aqui embaixo */
+
+
+
+body{
+
+background-image: url("../img/background-area-principal.png");
+text-align: center;
+}
+
+header{
+height: 40px;
+background-image: url("../img/background-header-e-footer.png");
+font-family: 'Open Sans', sans-serif;
+padding-top: 20px;
+font-size: 22px;
+text-align: center;
+}
+
+footer{ 
+
+height: 40px;
+background-image: url("../img/background-header-e-footer.png");
+font-family: 'Open Sans', sans-serif ;
+padding-top: 20px;
+font-size: 22px;
+text-align: center;
+
+}
+
+#geral{
+	width: 960px;
+	height: 1050px;
+	text-align: center;
+	margin:auto;
+	font-family:'open sans';
+}
+
+#imgemgrande
+{
+	width: 920px;
+	height: 400px;
+vertical-align: center;
+	margin:20px 10px 10px;
+	margin-bottom: 20px;
+	border: 10px solid white;
+	background-image: url("../img/main-image.jpg");
+
+}
+
+#texto
+{
+	width: 400px;
+	float: right;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+}
+
+.colunas
+{
+	text-align: center;
+	width: 460px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+}
+
+#colunaimg1
+{
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#colunaimg2
+{
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#imagem1
+{
+width: 150px;
+	transform: rotate(-5deg);
+	margin-left: 20px;
+	margin-bottom: 60px;
+	border: 10px solid white;
+
+}
+
+#imagem2
+{
+width: 150px;
+	margin-left: 20px;
+	transform: rotate(5deg);
+	margin-bottom: 60px;
+	border: 10px solid white;
+	
+}
+
+#imagem3
+{
+width: 150px;
+	margin-left: 20px;
+		transform: rotate(-5deg);
+	margin-bottom: 60px;
+	border: 10px solid white;
+
+}
+#imagem4
+{
+width: 150px;
+	margin-left: 20px;
+	transform: rotate(5deg);
+	margin-bottom: 60px;
+	border: 10px solid white;
+	
+}
+
+#imagem5
+{
+width: 150px;
+	margin-left: 20px;
+	transform: rotate(-5deg);
+	margin-bottom: 60px;
+	border: 10px solid white;
+	
+}
+
+#imagem6
+{
+width: 150px;
+	margin-left: 20px;
+	transform: rotate(5deg);
+	margin-bottom: 60px;
+	border: 10px solid white;
+	
+}
+
+#footer
+
+{
+width: 960px;
+height: 60px;
+float: left;
+}
