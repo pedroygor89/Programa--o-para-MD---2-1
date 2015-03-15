@@ -13,38 +13,18 @@
         <!-- COLOQUE AS REGRAS DE CSS DENTRO DESSE ARQUIVO ABAIXO !-->
         <link rel="stylesheet" href="css/trabalho2.css">
 
-
-
-        
-  <style>
-    /* Prevent the slideshow from flashing on load */
-    #slides {
-      display: none
-
-
-  }
-
-    /* Center the slideshow */
-    .container {
-      margin: 0 auto
+<script type="text/javascript">
+    function changeImage(a) {
+        document.getElementById("img").src=a;
     }
+</script>
 
-    /* Show active item in the pagination */
-    .slidesjs-pagination .active {
-      color:red;
-    }
 
-    /* Media quires for a responsive layout */
 
-   
 
-    /* For larger displays */
-    
-      .container {
-        width: 920px
-      }
-    }
-  </style>
+
+
+     
     </head>
     
     <body>
@@ -53,65 +33,25 @@
 
 <header> <font color="white">Slide e GitHub</font> </header>
 
- <div id="geral">        
-           
-            <div id="imgemgrande"> 
-<!--img src="img/main-image.jpg"></img-->
-
-
-
-<div class="container">
-    <div id="slides">
-      <img src="img/main-image.jpg" >
-
-        <img src="img/main-image2.PNG" >
-      <img src="img/main-image3.png">
-      <img src="img/main-image4.jpg">
-    
-    </div>
-  </div>
-  <!-- End SlidesJS Required: Start Slides -->
-
-  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="js/jquery.slides.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
-  <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 940,
-        height: 430
-      });
-    });
-  </script>
-  <!-- End SlidesJS Required -->
-
-</div>
-
-
-
+<div id="geral">        
+<img id="img" src="img/main-image.jpg">
 
 
             <div class="colunas">
-
             <div id="colunaimg1"> 
 
-                <div id="imagem1"> <img src="img/imagem1.jpg"></img> </div>
-                <div id="imagem2"> <img src="img/imagem3.jpg"></img> </div>
-               
+                 
+               <img id="imagem1"  src="img/imagem1.jpg" onclick="changeImage('img/main-image.jpg');">
+             <img id="imagem2" src="img/imagem3.jpg"  onclick="changeImage('img/main-imageDois.png');"> 
+           
             </div>
 
 
 
             <div id="colunaimg2">
-                <div id="imagem4">  <img src="img/imagem2.jpg"></img> </div>
+                  <img id="imagem4" src="img/imagem2.jpg" onclick="changeImage('img/main-imageTres.png');">
 
-                <div id="imagem5">  <img src="img/imagem4.jpg"></img> </div>
+                  <img id="imagem5" src="img/imagem4.jpg" onclick="changeImage('img/main-imageQuatro.jpg');">
 
             </div>
 

@@ -17,7 +17,7 @@ font-size: 22px;
 text-align: center;
 }
 
-footer{on cli
+footer{
 height: 40px;
 background-image: url("../img/background-header-e-footer.png");
 font-family: 'Open Sans', sans-serif ;
@@ -35,7 +35,7 @@ text-align: center;
 	font-family:'open sans';
 }
 
-#imgemgrande
+#img
 {
 	width: 920px;
 	height: 400px;
